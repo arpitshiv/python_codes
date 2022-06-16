@@ -5,7 +5,7 @@ import string
 alphabet=list(string.ascii_letters)
 numbers=list(string.digits)
 symbols=['!','@','#','$','%','^','&','*']
-print(numbers)
+
 password_list=[]
 nr_letters=randint(0,5)
 nr_symbols=randint(0,5)
@@ -26,5 +26,3 @@ for char in password_list:
     password+=char
 print(f"your password is {password}")
 
-#for i in password_list:
-    #print(i,end="")

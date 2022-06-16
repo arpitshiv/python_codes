@@ -3,8 +3,9 @@ import string
 
 
 alphabet=list(string.ascii_letters)
-numbers=['0','1','2','3','4','5','6','7','8','9']
+numbers=list(string.digits)
 symbols=['!','@','#','$','%','^','&','*']
+print(numbers)
 password_list=[]
 nr_letters=randint(0,5)
 nr_symbols=randint(0,5)
